@@ -1,0 +1,70 @@
+@mixin theme ($bg-color, $text_color, $border){
+	background-color: $bg-color;
+	color: $text_color;
+	border-color: $border;
+}
+
+.btn-success{
+	@include theme(#fff,#27ae60,#27ae60)
+	&:hover{
+		@include theme(#27ae60,#fff,#27ae60)
+	}
+}
+
+.btn-info{
+	@include theme(#fff,#3498db,#3498db)
+	&:hover{
+		@include theme(#3498db,#fff,#3498db)
+	}
+}
+
+.btn-primary{
+	@include theme(#fff,#000,#000)
+	&:hover{
+		@include theme(#000,#fff,#000)
+	}
+}
+
+.btn-danger{
+	@include theme(#fff,#c0392b,#c0392b)
+	&:hover{
+		@include theme(#c0392b,#fff,#c0392b)
+	}
+}
+
+
+.modal-success{
+	.modal-header{
+	background-color: #27ae60;
+	}
+	.modal-body h2{
+	color: #27ae60;
+	}
+}
+
+.modal-danger{
+	.modal-header{
+	background-color: #c0392b;
+	}
+	.modal-body h2{
+	color: #c0392b;
+	}
+}
+
+.modal-primary{
+	.modal-header{
+	background-color: #eee;
+	}
+	.modal-body h2{
+	color: #000;
+	}
+}
+
+.modal-info{
+	.modal-header{
+	background-color: #3498db;
+	}
+	.modal-body h2{
+	color: #3498db;
+	}
+}
