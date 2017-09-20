@@ -1,0 +1,59 @@
+.btn-success {
+  background-color: #fff;
+  color: #27ae60;
+  border-color: #27ae60; }
+  .btn-success:hover {
+    background-color: #27ae60;
+    color: #fff;
+    border-color: #27ae60; }
+
+.btn-info {
+  background-color: #fff;
+  color: #3498db;
+  border-color: #3498db; }
+  .btn-info:hover {
+    background-color: #3498db;
+    color: #fff;
+    border-color: #3498db; }
+
+.btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-color: #000; }
+  .btn-primary:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000; }
+
+.btn-danger {
+  background-color: #fff;
+  color: #c0392b;
+  border-color: #c0392b; }
+  .btn-danger:hover {
+    background-color: #c0392b;
+    color: #fff;
+    border-color: #c0392b; }
+
+.modal-success .modal-header {
+  background-color: #27ae60; }
+
+.modal-success .modal-body h2 {
+  color: #27ae60; }
+
+.modal-danger .modal-header {
+  background-color: #c0392b; }
+
+.modal-danger .modal-body h2 {
+  color: #c0392b; }
+
+.modal-primary .modal-header {
+  background-color: #eee; }
+
+.modal-primary .modal-body h2 {
+  color: #000; }
+
+.modal-info .modal-header {
+  background-color: #3498db; }
+
+.modal-info .modal-body h2 {
+  color: #3498db; }

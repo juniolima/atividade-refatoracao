@@ -1,0 +1,30 @@
+@import "style.css";
+/* Modify */
+		.modal-content{
+			border-radius: 0;
+			border:none;
+		}
+		.modal-footer{
+			border: 0;
+			justify-content: center;
+			padding-bottom: 2rem;
+			
+		}
+		.modal-body{
+			text-align: center;
+			padding-bottom:0;
+		}
+
+		 .modal-header{			
+			border-radius: 0;
+			padding: 2rem;
+		
+		}	
+
+		.close{
+			color: #fff;
+			text-shadow: none;
+			opacity: 100;
+		}
+
+
